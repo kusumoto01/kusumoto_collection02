@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "declarationMap": false,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "incremental": false,
+        "isolatedModules": true,
+        "jsx": "react",
+        "lib": ["dom", "es2018"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "sourceMap": false,
+        "strict": true,
+        "target": "es5",
+        "types": ["@emotion/react/types/css-prop"]
+    },
+    "exclude": ["__test__", "build", "functions", "node_modules"],
+    "include": ["./src/**/*", "./storybook/**/*.tsx"]
+}

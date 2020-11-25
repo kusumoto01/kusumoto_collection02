@@ -1,0 +1,5 @@
+build/**/*
+functions/**/*
+node_modules/**/*
+storybook/**/*.mdx
+webpack.config.js

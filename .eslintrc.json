@@ -1,0 +1,50 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended",
+        "plugin:react/recommended",
+        "prettier/@typescript-eslint"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "project": "./tsconfig.json",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "react",
+        "react-hooks"
+    ],
+    "rules": {
+        "@typescript-eslint/explicit-function-return-type": [
+            "error", {
+                "allowExpressions": true,
+                "allowTypedFunctionExpressions": true
+            }
+        ],
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "prettier/prettier": [
+            "error",
+            {
+                "semi": false,
+                "singleQuote": true,
+                "tabWidth": 4
+            }
+        ],
+        "react/prop-types": "off",
+        "react-hooks/rules-of-hooks": "error"
+    }
+}
