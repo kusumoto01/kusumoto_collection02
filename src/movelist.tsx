@@ -4,21 +4,14 @@ import { css } from '@emotion/core'
 type Props = {
     AdataLeft: {
         sortkey: number
-
         id: number
-
         label: string
-
         price: number
     }[]
-
     AdataRight: {
         sortkey: number
-
         id: number
-
         label: string
-
         price: number
     }[]
 }
@@ -26,7 +19,7 @@ const buttonStyleLeft = css({
     position: 'relative',
     width: 100,
     fontSize: '1vw',
-    top: '20vw',
+    top: '30vw',
     left: '33vw'
 })
 
@@ -34,7 +27,7 @@ const buttonStyleRight = css({
     position: 'relative',
     width: 100,
     fontSize: '1vw',
-    top: '20vw',
+    top: '30vw',
     left: '48vw'
 })
 
@@ -42,7 +35,7 @@ const MoveRightButton = css({
     position: 'relative',
     width: 100,
     fontSize: '2vw',
-    top: '18vw',
+    top: '28vw',
     left: '20vw'
 })
 
@@ -50,7 +43,7 @@ const MoveLeftButton = css({
     position: 'relative',
     width: 100,
     fontSize: '2vw',
-    top: '22vw',
+    top: '32vw',
     left: '20vw'
 })
 const multipleLeft = css({
@@ -70,7 +63,7 @@ const multipleLeft = css({
     borderRadius: '2px',
     width: '400px',
     height: '300px',
-    top: '20vw',
+    top: '30vw',
     left: '40%'
 })
 
@@ -91,7 +84,7 @@ const multipleRight = css({
     borderRadius: '2px',
     width: '400px',
     height: '300px',
-    top: '20vw',
+    top: '30vw',
     left: '90%'
 })
 
